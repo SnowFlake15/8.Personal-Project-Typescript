@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "module": "system",
+      "moduleResolution": "node",
+      "target": "es2017",
+      "lib": ["dom", "es2017"],
+      "skipLibCheck": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "outFile": "./build/index.js"
+    },
+    "include": [
+      "./gradebooksmodel.ts",
+      "./groupsmodel.ts",
+      "./lmsmodel.ts",
+      "./main.ts",
+      "./pupilsmodel.ts",
+      "./subjectsmodel.ts",
+      "./teachersmodel.ts"
+    ]
+}
